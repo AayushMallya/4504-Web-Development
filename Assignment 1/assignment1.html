@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Assignment 1</title>
+   <link rel="stylesheet" href="reset.css" />
+   <link rel="stylesheet" href="assignment1.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>  
+      <form method="POST" action="http://kunz-pc.sce.carleton.ca/sysc4504/process.php">
+               <fieldset>
+               <legend>Photo Details</legend>
+            
+            <p id="itempadding">Title
+               <input id="toptextboxes" type="text" name="title"  placeholder="Give your photo a descriptive name" />
+            </p>
+
+            <p id="itempadding">Description
+               <textarea placeholder="Adding a rich description will help with search results" name="description"> </textarea>
+            </p>
+
+               <table>
+                  <tr>
+                     <td id="dotboxsurroundpadding">
+                        <a >Continent </a>
+                        </br>
+                        <select name="continent">
+                           <option>Choose continent</option>
+                           <option>Africa</option>
+                           <option>Antarctica</option>
+                           <option>Asia</option>
+                           <option>Australia</option>
+                           <option>Europe</option>
+                           <option>North America</option>
+                           <option>South America</option>
+                        </select></br>
+                     </td>
+                     <td rowspan="2" id="dotbox" > 
+                        <p id="dotboxtext">
+                           Copyright?</br>
+                           <input type="radio" name="copyright" value="1">All rights reserved</br>
+                           <input type="radio" name="copyright" value="2">Creative Commons
+                        </p>
+                     </td>             
+                  </tr>
+                  <tr>
+                     <td id="dotboxsurroundpadding">
+                        Country</br>
+                        <select name="country">
+                           <option>Choose Country</option>
+                            <option>Australia</option>
+                              <option>Brazil</option>
+                              <option>Canada</option>
+                              <option>Egypt</option>
+                              <option>England</option>
+                              <option>India</option>
+                        </select></br>
+                     </td>
+                  </tr>
+                 <tr>
+                     <td id="citypadding">
+                       City</br>
+                       <input type="text" name="city"></br>
+                    </td>
+                    <td id="dotbox" >
+                        <p id="dotboxtext">
+                           Creative Commons Types</br>
+                           <input type="checkbox" name="cc" value="attribution"> Attribution</br>
+                           <input type="checkbox" name="cc" value="noncommercial"> Noncommercial</br>
+                           <input type="checkbox" name="cc" value="noderivativeworks"> No Derivative Works</br>
+                        <p>
+                     </td>  
+                 </tr>
+               </table>
+                        <p id="licensebox">
+                           I accept the software license
+                           <input type="checkbox" name="accept" value="accept">
+                        </p>
+               <table>
+                  <tr>
+                     <td id="dotboxsurroundpadding">
+                        Rate this photo: </br>
+                        <input type="text" name="rate" list="rate" /></br>
+                        <datalist id="rate">
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                           <option>6</option>
+                           <option>7</option>
+                           <option>8</option>
+                           <option>9</option>
+                           <option>10</option>
+                        </datalist>
+                     </td>
+                     <td rowspan="2" id="dotbox">
+                        <p id="datetimebox">
+                        Date Taken: </br>
+                           <input type="date" name="date" placeholder="dd/mm/yy" /></br>
+                        Time Taken: </br>
+                           <input type="time" name="time"/> </br>
+                        </p>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td id="dotboxsurroundpadding">Color Collection: </br>
+                        <input type="color" name="color"/></br>
+                     </td>
+                  </tr>
+               </table>
+               <p id="buttons">
+                           <input type="submit" value ="Submit">
+                           <input type="reset" value ="Clear Form">
+                        </p>
+               </fieldset>
+            </form>  
+   </section>
+</main>  
+</body>
+</html>

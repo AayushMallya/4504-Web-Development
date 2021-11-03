@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Lobster, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Open Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+   background-color: #E8EAF6;
+}
+
+
+/* header and navigation */
+
+header, footer {
+  color: white;
+  background-color: #1A237E;
+  margin: 0em 4em 0.25em 4em;
+}
+header h1 { 
+  padding: 0.5rem 0 0 1.25rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+header p { 
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.25rem;
+}
+
+
+/* main article styling */
+main {
+   background-color: white;
+   margin: 1em 4em 1em 4em;
+   padding: 1em;
+}
+
+section {
+   margin-bottom: 1em;
+   padding: 0;
+   width: 100%;
+}
+
+
+legend { 
+  font-size: 1.35rem;
+  background-color: #7986CB;
+  height: 1.70rem;
+  color: #E8EAF6;
+  text-transform: uppercase;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+fieldset {
+   margin: 0;
+   padding: 0;
+   background-color: #C5CAE9;
+   width: 100%;
+   border: none;
+}
+
+form p {
+  margin-top: 0.5em;
+}
+
+
+
+textarea {
+  padding: 0px;
+  height: 100px;
+  width: 100%;
+}
+
+
+table {
+  width: 100%;
+}
+
+
+select{
+  width: 200px;
+}
+
+
+input[name="city"]{
+  width: 50%;
+}
+
+
+p[id="buttons"] input{
+  margin: 5px 0px 5px 0px;
+  color: white;
+  border: 0px;
+  box-shadow: 0px 4px 4px grey;
+  background-color:#E82B64;
+  text-decoration: color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+
+#itempadding{
+  padding-left: 10px; 
+  padding-right: 15px;
+}
+
+#dotboxsurroundpadding{
+  padding-left: 10px; 
+  padding-right: 0px;
+}
+
+#citypadding{
+  padding-left: 10px; 
+  padding-right: 0px;
+  vertical-align: top;
+}
+
+#dotbox{
+  padding-right: 15px;
+  width: 50%;
+}
+
+#dotboxtext{
+  border: 2px #AAAFD4 solid;
+  padding: 5px;
+}
+
+#datetimebox{
+  border: 2px #AAAFD4 solid;
+  padding: 10px 5px 5px 5px;
+}
+
+#buttons{
+  background:#9EA8DB;
+  padding: 5px 10px 5px 10px;
+  margin: 10px 15px 10px 10px;
+}
+
+#licensebox{
+  background:#9EA8DB; 
+  padding: 10px 10px 10px 15px; 
+  margin: 10px 15px 10px 10px;
+}
+
+#fullsizeelements{
+  width: 100%;
+}
+#toptextboxes{
+  width: 100%;
+}
+
+
